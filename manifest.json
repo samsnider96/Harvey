@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Harvey",
+  "description": "This extension shows a picture of Steve Harvey.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_title": "Here's STEVE!!",
+    "default_icon": "icon.jpg",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
